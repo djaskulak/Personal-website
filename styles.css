@@ -1,11 +1,11 @@
 /*
 
     SITE COLOR PALETTE: 
-    --prussian-blue: #092842ff;
-    --saddle-brown: #904825ff;
-    --ochre: #c57602ff;
-    --gamboge: #db9d33ff;
-    --princeton-orange: #de7726ff;
+    --mardi-gras: #881688ff;
+    --amber-sae-ece: #ff8420ff;
+    --medium-violet-red: #d6058aff;
+    --russian-violet: #20114aff;
+    --seashell: #faf1eaff;
 
     FONTS: 
     * Headings: Cabin Condensed
@@ -16,14 +16,18 @@
 /* WHOLE SITE */
 body {
     color: #092842ff;
-    background-color: #9C92EC;
+    background-image: url("assets/retro-pattern-4518357_1280.png");
     margin: 0;
+    margin-top: 30px;
 }
 
 /* NAV BAR */
 nav {
-    background-color: #FAF9F9;
+    background-color: #faf1eaff;
     height: 50px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 10px;
+    width: 100%; /* Full width */
 }
 
 .navBar {
@@ -50,22 +54,26 @@ nav {
 
 .navItem a:hover {
     font-style: italic;
-    text-shadow: 2px 2px #89b0aeff;
+    text-shadow: 2px 2px #881688ff;
 }
 
 /* HOME PAGE */
-#initials {
-    font-family: Sacramento;
-    text-align: center;
-}
 
 .cover {
-    background-image: url("https://cdn.pixabay.com/photo/2016/10/19/12/01/sparkles-1752823_1280.jpg");
+    
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.welcome {
+    font-family: Sacramento;
+    font-size: 240px;
+    line-height: 0.25em;
+    text-shadow: 2px 2px #faf1eaff;
+    text-align: center;
 }
 
 #myName {
@@ -84,4 +92,8 @@ nav {
 /* CONTACT */
 .socials img {
     width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
+
