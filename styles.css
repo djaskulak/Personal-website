@@ -1,11 +1,11 @@
 /*
 
     SITE COLOR PALETTE: 
-    --independence: #555b6eff;
-    --morning-blue: #89b0aeff;
-    --powder-blue: #bee3dbff;
-    --cultured: #faf9f9ff;
-    --apricot: #ffd6baff;
+    --prussian-blue: #092842ff;
+    --saddle-brown: #904825ff;
+    --ochre: #c57602ff;
+    --gamboge: #db9d33ff;
+    --princeton-orange: #de7726ff;
 
     FONTS: 
     * Headings: Cabin Condensed
@@ -15,8 +15,8 @@
 
 /* WHOLE SITE */
 body {
-    color: #555B6EFF;
-    background-color: #BEE3DB;
+    color: #092842ff;
+    background-color: #9C92EC;
     margin: 0;
 }
 
@@ -40,7 +40,7 @@ nav {
 }
 
 .navItem a {
-    color: #555B6EFF;
+    color: #092842ff;
     font-family: Josefin Slab;
     font-size: 24px;
     text-decoration: none;
@@ -54,8 +54,13 @@ nav {
 }
 
 /* HOME PAGE */
+#initials {
+    font-family: Sacramento;
+    text-align: center;
+}
+
 .cover {
-    background-image: url("assets/2020-09-15\ 22:35:43.165.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/19/12/01/sparkles-1752823_1280.jpg");
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -68,7 +73,7 @@ nav {
 }
 
 #description {
-    color: #555B6EFF;
+    color: #092842ff;
     font-family: Josefin Slab;
 }
 
