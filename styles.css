@@ -21,6 +21,15 @@ body {
     margin-top: 30px;
 }
 
+.pageHeadings {
+    font-family: Sacramento;
+    font-size: 100px;
+    line-height: 0.25em;
+    text-shadow: 2px 2px #faf1eaff;
+    text-align: center;
+    padding-top: 0.25em;
+}
+
 /* NAV BAR */
 nav {
     background-color: #faf1eaff;
@@ -78,6 +87,7 @@ nav {
 
 #myName {
     font-family: Sacramento;
+    
 }
 
 #description {
@@ -86,14 +96,68 @@ nav {
 }
 
 /* RESUME */
+.resumeHead {
+    font-family: Josefin Slab;
+    font-size: 40px;
+    line-height: 0.25em;
+    text-shadow: 2px 2px #faf1eaff;
+    text-align: center;
+}
+
+.purple {
+    background-color: rgba(210, 168, 210, 0.75);
+    color: black;
+    height: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.purple:hover {
+    background-color: rgb(210, 168, 210);
+}
+
+.pink {
+    background-color: rgba(240, 161, 211, 0.75);
+    color: black;
+    height: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.pink:hover {
+    background-color: rgb(240, 161, 211);
+}
+
+.orange {
+    background-color: rgba(255, 209, 171, 0.75);
+    color: black;
+    height: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.orange:hover {
+    background-color: rgb(255, 209, 171);
+}
 
 /* PROJECTS */
 
 /* CONTACT */
-.socials img {
-    width: 50px;
+.socials {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.socials img {
+    width: 50px;
+}
+
+
 
